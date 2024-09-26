@@ -1,0 +1,50 @@
+/* style.css */
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5a689b; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 20px; /* Tamanho da fonte padrão */
+}
+
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    max-width: 60%;
+    display: block;
+    margin: 0 auto 20px auto; /* Centraliza a imagem e adiciona margem inferior */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+.btn-proximo {
+    background-color: rgb(125, 7, 7); /* Cor de fundo dos botões */
+    color: rgb(255, 255, 255); /* Cor do texto dos botões */
+    border: 1px solid black;
+    padding: 12px 20px; /* Padding ajustado para maior área de clique */
+    margin: 7px; /* Espaçamento entre botões */
+    cursor: pointer;
+    font-size: 18px; /* Tamanho da fonte dos botões */
+}
+
+.btn-proximo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaçamento superior para os botões */
+}
